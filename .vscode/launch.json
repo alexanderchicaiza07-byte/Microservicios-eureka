@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Micro: Categorías",
+            "request": "launch",
+            "mainClass": "com.unibe.categorias.CategoriasApplication",
+            "projectName": "categorias",
+            "cwd": "${workspaceFolder}/categorias"
+        },
+        {
+            "type": "java",
+            "name": "Micro: Productos",
+            "request": "launch",
+            "mainClass": "com.unibe.productos.ProductosApplication",
+            "projectName": "productos",
+            "cwd": "${workspaceFolder}/productos"
+        }
+    ]
+}
