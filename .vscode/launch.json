@@ -1,7 +1,12 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "ApigatewayApplication",
+            "request": "launch",
+            "mainClass": "com.unibe.apigateway.ApigatewayApplication"
+        },
         {
             "type": "java",
             "name": "Micro: Categorías",
@@ -17,6 +22,22 @@
             "mainClass": "com.unibe.productos.ProductosApplication",
             "projectName": "productos",
             "cwd": "${workspaceFolder}/productos"
+        },
+        {
+            "type": "java",
+            "name": "Micro: Eurekaserver",
+            "request": "launch",
+            "mainClass": "com.unibe.eurekaserver.EurekaserverApplication",
+            "projectName": "eurekaserver",
+            "cwd": "${workspaceFolder}/eurekaserver"
+        },
+        {
+            "type": "java",
+            "name": "Micro: API Gateway",
+            "request": "launch",
+            "mainClass": "com.unibe.apigateway.ApigatewayApplication",
+            "projectName": "apigateway",
+            "cwd": "${workspaceFolder}/apigateway"
         }
     ]
 }
