@@ -1,12 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "java",
-            "name": "ApigatewayApplication",
-            "request": "launch",
-            "mainClass": "com.unibe.apigateway.ApigatewayApplication"
-        },
+        
         {
             "type": "java",
             "name": "Micro: Categorías",
