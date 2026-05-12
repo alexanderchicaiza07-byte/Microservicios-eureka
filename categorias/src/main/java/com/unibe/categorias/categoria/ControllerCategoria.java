@@ -32,7 +32,7 @@ public class ControllerCategoria {
         return servicesCategoria.findById(id);
     }
     @PostMapping()
-    public EntityCategoria saveCategoria( @RequestBody EntityCategoria categoria){
+    public EntityCategoria saveCategoria( @RequestBody @NonNull EntityCategoria categoria){
         return servicesCategoria.save(categoria);
     }
 
