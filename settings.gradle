@@ -1,5 +1,5 @@
 rootProject.name='eurekamicroservicios'
-include 'categorias', 'productos','eurekaserver','apigateway'
+include 'categorias', 'productos','eurekaserver','apigateway','configServer'
 
 //se crea un archivo padre para los microservicios
 

@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "java",
             "name": "Micro: Categorías",
@@ -33,6 +32,14 @@
             "mainClass": "com.unibe.apigateway.ApigatewayApplication",
             "projectName": "apigateway",
             "cwd": "${workspaceFolder}/apigateway"
+        },
+        {
+            "type": "java",
+            "name": "Micro: ConfigServer",
+            "request": "launch",
+            "mainClass": "com.unibe.configServer.ConfigServerApplication",
+            "projectName": "configServer",
+            "cwd": "${workspaceFolder}/configServer"
         }
     ]
 }
