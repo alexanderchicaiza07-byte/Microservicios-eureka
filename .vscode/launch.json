@@ -3,6 +3,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.unibe.configServer.ConfigServerApplication"
+        },
+        {
+            "type": "java",
             "name": "Micro: Categorías",
             "request": "launch",
             "mainClass": "com.unibe.categorias.CategoriasApplication",
